@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="style.css"</link>
+</head>
+
+
+<body>
+ <h2> The Trails of Big Bend </h2>
+
+ <p> This map shows a 3d version of the trails of Big Bend. Showing the three classes of trail to show how developed they are for hikers to make the right choice on which one to take. Zooming in and changing pitch will also show you the elevation of the mountain. Please make sure to click each trail for more detailed information on each one.</p>
+
+
+<div id="map">
+     <script type="text/javascript" src="javascript.js"></script>
+   </div>
+
+   <div id='legend'>
+       <h4>Big Bend NP Trails</h4>
+       <ul>
+           <li><hr class="class1"> Class 1 trail: Minimally Developed</li>
+           <li><hr class="class2"> Class 2 trail: Moderately Developed</li>
+           <li><hr class="class3"> Class 3 trail: Developed</li>
+           <li><hr class="boundary"> Park boundary</li>
+       </ul>
+   </div>
+
+</body>
+
+<!--
+  title={Big Bend National Park Boundary},
+  author={philip},
+  year={2019},
+  organization={ArcGIS Hub},
+  link={https://hub.arcgis.com/datasets/philip::big-bend-national-park-boundary/about}
+}
+
+  title={Big Bend National Park - Trails},
+  author={philip},
+  year={2017},
+  organization={ArcGIS Hub},
+  link={https://hub.arcgis.com/datasets/nps::big-bend-national-park-trails/about}
+</html>
