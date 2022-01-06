@@ -1,0 +1,13 @@
+<!--
+  title={Big Bend National Park Boundary},
+  author={philip},
+  year={2019},
+  organization={ArcGIS Hub},
+  link={https://hub.arcgis.com/datasets/philip::big-bend-national-park-boundary/about}
+}
+
+  title={Big Bend National Park - Trails},
+  author={philip},
+  year={2017},
+  organization={ArcGIS Hub},
+  link={https://hub.arcgis.com/datasets/nps::big-bend-national-park-trails/about}
